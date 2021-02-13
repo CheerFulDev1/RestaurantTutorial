@@ -12,4 +12,12 @@ export class RestoService {
   getData(){
     return this.http.get(this.url);
   }
+
+  saveResto(data: any){
+    return this.http.post(this.url, data);
+  }
+
+  deletResto(id: number){
+    return this.http.delete(`${this.url}/${id}`);
+  }
 }
