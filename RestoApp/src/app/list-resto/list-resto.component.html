@@ -15,9 +15,8 @@
         <td>{{item.address}}</td>
         <td>{{item.email}}</td>
         <td>
-            <button (click)="deletTheResto(item.id)" type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <i style="color: red;" (click)="deletTheResto(item.id)" class="fas fa-trash"></i>
+            <a routerLink="/update/{{item.id}}"><i style="color: blue;padding-left: 5px;" class="fas fa-edit"></i></a>
         </td>
       </tr>
     </tbody>
