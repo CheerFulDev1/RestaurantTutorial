@@ -1,23 +1,95 @@
-# Compiled class file
-*.class
+Skip to content
+Search or jump to…
 
-# Log file
-*.log
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@CheerFulDev1 
+angular
+/
+angular-cli
+1.1k
+24.2k
+10.4k
+Code
+Issues
+332
+Pull requests
+38
+Actions
+Security
+Insights
+angular-cli/.gitignore
+@josephperrott
+josephperrott build: update bazel to 4.0.0
+…
+Latest commit b5c309a 17 days ago
+ History
+ 11 contributors
+@Brocco@hansl@josephperrott@clydin@rodyhaddad@JohannesHoppe@dgp1130@cironunes@beeman@alxhub@ahasall
+50 lines (43 sloc)  856 Bytes
+  
+# Outputs
+bazel-*
+test-project-host-*
+dist/
+dist-schema/
 
-# BlueJ files
-*.ctxt
+# IDEs
+jsconfig.json
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Intellij IDEA/WebStorm
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/inspectionProfiles/
+.idea/**/compiler.xml
+.idea/**/encodings.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Also ignore code styles because .editorconfig is used instead.
+.idea/codeStyles/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# VSCode
+# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+**/*.code-workspace
+
+# Typings file.
+typings/
+
+# Misc
+coverage/
+node_modules/
+tmp/
+npm-debug.log*
+yarn-error.log*
+.ng_pkg_build/
+.ng-dev.log
+.ng-dev.user*
+.husky/_
+.bazelrc.user
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
