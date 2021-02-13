@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'add', component:AddRestoComponent },
   { path: 'update/:id', component: UpdateRestoComponent },
-  { path: 'list', component: ListRestoComponent }
+  { path: '', component: ListRestoComponent }
 ];
 
 @NgModule({
