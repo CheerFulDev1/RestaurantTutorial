@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { from } from 'rxjs';
+import { RestoService } from '../resto.service';
 
 @Component({
   selector: 'app-list-resto',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListRestoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private resto: RestoService) {}
 
   ngOnInit(): void {
+    this.resto.getData().subscribe((result)=>{
+      console.warn(result);
+    })
   }
 
 }

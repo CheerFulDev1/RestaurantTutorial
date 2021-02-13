@@ -8,6 +8,8 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { HttpClientModule } from '@angular/common/http';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { RegisterComponent } from './register/register.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
